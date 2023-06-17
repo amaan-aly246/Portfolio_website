@@ -1,0 +1,94 @@
+.testimonials {
+  margin-bottom: 2em;
+  margin-top: -60px;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(217, 175, 217);
+  box-shadow: 15px 32px 15px -3px rgb(217, 175, 217, 0.8);
+  font-size: 1.3em;
+  border-radius: 10px;
+  padding: 20px;
+  margin-inline: 40px;
+  cursor: pointer;
+  height: 220px;
+}
+
+.testimonial:last-child {
+  border-left: 5px solid rgb(178, 118, 178);
+  padding-left: 20px;
+  font-size: 1.5em;
+  position: relative;
+}
+
+.testimonial:first-child {
+  margin-inline: 150px;
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  bottom: 50px;
+  left: -20px;
+  font-size: 22px;
+  font-weight: 800;
+  color: whitesmoke;
+}
+
+.testimonial img {
+  position: absolute;
+  width: 80px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: hotpink;
+  bottom: 10px;
+  left: -120px;
+}
+
+.circle {
+  position: absolute;
+  width: 80px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: rgb(237, 187, 213);
+  bottom: 10px;
+  left: -110px;
+}
+
+.testimonials .btn {
+  position: absolute;
+  bottom: 0;
+  background-color: transparent;
+  border: none;
+  font-size: 1em;
+  color: purple;
+
+  cursor: pointer;
+}
+
+.testimonials .btnLeft {
+  left: 1em;
+}
+
+.testimonial .btnRight {
+  left: 2em;
+  margin-left: 20px;
+}
+
+.testimonials .btn:hover {
+  color: white;
+}
+
+@media (max-width: 760px) {
+  .testimonial>.text {
+    font-size: .8em;
+  }
+
+  .testimonial:nth-child(1) {
+    width: 9px;
+    margin-inline: 110px;
+  }
+
+}
